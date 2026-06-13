@@ -1,21 +1,226 @@
 <!DOCTYPE html>
-<html>
+<html lang="fa">
 <head>
-<title>BEHRANG POLYMER</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Behrang Polymer | بهرنگ پلیمر</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Tahoma,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:#111;
+color:white;
+padding:15px 5%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#ff8800;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url('https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7');
+background-size:cover;
+background-position:center;
+color:white;
+padding:120px 5%;
+}
+
+.hero h1{
+font-size:52px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+max-width:700px;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:12px 25px;
+background:#ff8800;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.section{
+padding:70px 5%;
+background:white;
+margin-bottom:10px;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:30px;
+font-size:36px;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#f8f8f8;
+padding:25px;
+text-align:center;
+border-radius:10px;
+}
+
+.card h3{
+color:#ff8800;
+font-size:32px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.product{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+footer{
+background:#111;
+color:white;
+padding:40px 5%;
+text-align:center;
+}
+</style>
+
 </head>
+
 <body>
 
+<header>
+<div class="logo">BEHRANG POLYMER</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">About Us</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
 <h1>BEHRANG POLYMER</h1>
 
-<p>Manufacturer of PE Based Calcium Carbonate Filler Masterbatch</p>
+<p>
+Manufacturer of PE Based Calcium Carbonate Filler Masterbatch
+</p>
 
-<p>CaCO3 Content: 80%</p>
+<a href="#" class="btn">Request A Quote</a>
+</section>
 
-<p>Production Capacity: 300 Tons Per Month</p>
+<section class="section">
+<h2>About Us | درباره ما</h2>
 
-<p>Email: info@behpolymer.ir</p>
+<p style="text-align:center;max-width:900px;margin:auto;line-height:2;">
+Behrang Polymer is a manufacturer of Calcium Carbonate Filler Masterbatch
+for plastic industries.
+<br><br>
+بهرنگ پلیمر تولیدکننده مستربچ کربنات کلسیم و کامپاندهای پلیمری
+برای صنایع پلاستیک می‌باشد.
+</p>
+</section>
 
-<p>WhatsApp: +989203010192</p>
+<section class="section">
+<h2>Company Statistics</h2>
+
+<div class="stats">
+
+<div class="card">
+<h3>5000+</h3>
+<p>Tons Monthly Capacity</p>
+</div>
+
+<div class="card">
+<h3>10+</h3>
+<p>Years Experience</p>
+</div>
+
+<div class="card">
+<h3>100%</h3>
+<p>Quality Control</p>
+</div>
+
+<div class="card">
+<h3>10+</h3>
+<p>Export Countries</p>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>Our Products</h2>
+
+<div class="products">
+
+<div class="product">
+<h3>70% CaCO3</h3>
+<p>PE Based Calcium Carbonate Filler Masterbatch</p>
+</div>
+
+<div class="product">
+<h3>80% CaCO3</h3>
+<p>PE Based Calcium Carbonate Filler Masterbatch</p>
+</div>
+
+<div class="product">
+<h3>85% CaCO3</h3>
+<p>PE Based Calcium Carbonate Filler Masterbatch</p>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>Contact Us</h2>
+
+<p style="text-align:center;line-height:2;">
+Email: info@behpolymer.ir
+<br>
+WhatsApp: +989203010192
+<br>
+Tehran, Iran
+</p>
+</section>
+
+<footer>
+© 2026 Behrang Polymer - All Rights Reserved
+</footer>
 
 </body>
 </html>
